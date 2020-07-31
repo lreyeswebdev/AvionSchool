@@ -1,0 +1,25 @@
+body {
+  background-image: url('69.jpg');
+  text-align: center;
+}
+
+h1 {
+  color: turquoise;
+}
+
+img {
+  width: 400px;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+#thirdDiv {
+  background-color: skyblue;
+  border: solid 20px teal;
+  height: 600px;
+  padding: 50px;
+  width: 500px;
+}
