@@ -1,0 +1,5 @@
+1. Variable - They are like boxes that hold values in them.
+2. String - They are usually words that are enclosed with quotation marks.
+3. Functions - They are a piece of code that would perform a specific task.
+4. If statements - These are statements that we plan to compare with another statement.
+5. Boolean values - These are values we use as something to check what is true or false.
