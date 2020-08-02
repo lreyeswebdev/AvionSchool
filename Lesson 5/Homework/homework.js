@@ -82,7 +82,7 @@ function isPrime(num) {
   } else if (num === 2) {
     return true;
   } else {
-    for (var num = 2; x < num; num++) {
+    for (var x = 2; x < num; num++) {
       if (num % x === 0) {
         return false;
       }
