@@ -1,0 +1,4 @@
+1. for - This make the code run based on a condition and it will continue to run until the condition becomes false.
+2. && - means and
+3. || - means or
+4. ! - means not
