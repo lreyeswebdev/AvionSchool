@@ -1,0 +1,2 @@
+1. prototype - This allows us to create new methods in objects
+2. constructors - special method for creating and initializing objects created within a class
