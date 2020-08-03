@@ -1,0 +1,5 @@
+1. Object - This is a container that can hold different items, even unrelated ones.
+2. Properties - These are specific values associated with items placed inside an object
+3. Methods - These are functions that are saved inside objects
+4. for in loop - This a something that can loop through the properties of an object
+5. Dot notation vs bracket notation - Both allows us to access object properties. Dot notation calls the property by the name assigned as is while bracket notation requires that the property name be enclosed in quotation marks.  

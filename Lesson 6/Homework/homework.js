@@ -104,7 +104,7 @@ function multiplyArguments() {
     product *= arguments[i];
     if (argument.length === 0) {
       return 0;
-    } else if (argument.length === 0) {
+    } else if (argument.length === 1) {
       return argument;
     } else {return product;}
   }
