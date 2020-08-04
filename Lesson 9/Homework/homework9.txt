@@ -1,0 +1,1 @@
+Callback - The function related to this will only happen after the current one in effect is finished.
