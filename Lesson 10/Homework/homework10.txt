@@ -1,0 +1,1 @@
+Closure - a function inside another function can look to the outer function first before looking outside
