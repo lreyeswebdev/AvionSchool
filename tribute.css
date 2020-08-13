@@ -17,6 +17,10 @@ html {
   background-color: white;
   }
 
+li {
+  margin: 20px 0;
+}
+
 #main {
   text-align: center;
   background-color: Gainsboro;
