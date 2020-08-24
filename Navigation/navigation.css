@@ -1,0 +1,82 @@
+/* the side navigation menu */
+body {
+    background-image: url("parchment2.jpg");
+    height: 100%;
+    background-position: center;
+    
+    background-size: cover;
+    font-family: 'Niconne', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo-main {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Niconne';
+    font-size: 3rem;
+}
+
+.char-creation {
+    width: 80%;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f5deb3;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-radius: 15px;
+  }
+  /* sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  /* Active/current links */
+  .sidebar a.active {
+    background-color: #d18e5e;
+    color: white;
+  }
+  /* links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #e49a2f;
+    color: white;
+  }
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 230px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+    .bglogo {
+        width: 70%;
+        height: auto;
+        padding-top: 30px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
